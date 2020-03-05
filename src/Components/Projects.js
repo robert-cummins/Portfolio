@@ -19,6 +19,16 @@ class Projects extends Component {
             <ProjectCard num={3} text={"This is my amazing React Project. Check it out!"} />,
             <ProjectCard num={3} text={"This is my amazing React Project. Check it out!"} />,
         ]
+
+        let cSharpArr = [
+            <ProjectCard num={1} text={"This is my amazing C# Project. Check it out!"} />,
+            <ProjectCard num={2} text={"This is my amazing C# Project. Check it out!"} />,
+            <ProjectCard num={3} text={"This is my amazing C# Project. Check it out!"} />,
+            <ProjectCard num={3} text={"This is my amazing C# Project. Check it out!"} />,
+            <ProjectCard num={3} text={"This is my amazing C# Project. Check it out!"} />,
+            <ProjectCard num={3} text={"This is my amazing C# Project. Check it out!"} />,
+        ]
+
         if (this.state.activeTab === 0) {
             return (
                 <Grid>
@@ -29,7 +39,11 @@ class Projects extends Component {
             )
         } else {
             return (
-                <div><h1>This is C#</h1></div>
+                <Grid>
+                    {cSharpArr.map(card => {
+                        return <Cell col={4}>{card}</Cell>
+                    })}
+                </Grid>
             )
         }
     }
