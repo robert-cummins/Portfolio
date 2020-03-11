@@ -7,7 +7,7 @@ class LandingPage extends Component {
             <div style ={{width: '100%', height: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://scontent.fpmr1-1.fna.fbcdn.net/v/t1.0-9/264750_1397075144866_3533610_n.jpg?_nc_cat=110&_nc_sid=210fed&_nc_ohc=7agr1HA4rrYAX82sZGB&_nc_ht=scontent.fpmr1-1.fna&oh=8e5e287108f2fa3c846504e2ac316b23&oe=5E99A652" alt="avatar" className="avatar-image"></img>
+                        <img src="https://scontent.fpmr1-1.fna.fbcdn.net/v/t1.0-9/30222395_10204530742346515_6254030108708520111_n.jpg?_nc_cat=101&_nc_sid=85a577&_nc_ohc=UBluZDpJBaQAX8PLuFi&_nc_ht=scontent.fpmr1-1.fna&oh=db710209752f65ed3150a458038618c4&oe=5E8FC336" alt="avatar" className="avatar-image"></img>
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr/>
