@@ -12,16 +12,13 @@ function App() {
       <Layout>
         <Header className="header-color" title="Robert Cummins" scroll>
           <Navigation>
-            <Link to="/resume">Resume</Link>
-            <Link to="/aboutme">AboutMe</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contacts">Contacts</Link>
+            <Link to="/">About Me</Link>
           </Navigation>
         </Header>
         <Drawer title="Title">
           <Navigation>
-            <Link to="/resume">Resume</Link>
-            <Link to="/aboutme">AboutMe</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contacts">Contacts</Link>
           </Navigation>
