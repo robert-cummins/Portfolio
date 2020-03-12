@@ -12,8 +12,8 @@ class Projects extends Component {
 
     toggleCategories = () => {
         let reactArr = [
-            <ProjectCard link={"https://github.com/robert-cummins/splinter"} title={"Splinter"} text={"A bill splitting app that can be used for house shares, trips away etc."} />,
-            <ProjectCard link={"https://github.com/robert-cummins/uber-chef-react"} title={"UberChef"} text={"An Uber like App to connect customers to private chefs"} />,
+            <ProjectCard webLink={"http://splinterapp.herokuapp.com/#/"} link={"https://github.com/robert-cummins/splinter"} title={"Splinter"} text={"A bill splitting app that can be used for house shares, trips away etc."} />,
+            <ProjectCard webLink={"https://uber-chef.herokuapp.com/"} link={"https://github.com/robert-cummins/uber-chef-react"} title={"UberChef"} text={"An Uber like App to connect customers to private chefs"} />,
             <ProjectCard link={"https://github.com/robert-cummins/weather-or-not"} title={"Weather or Not"} text={"An app that decides what activities are appropriate for upcoming weather"} />,
             
         ]

@@ -105,3 +105,12 @@
     font-size: 66px;
     padding-right: 2em;
 }
+
+.deployed-button {
+    float: right;
+}
+
+.project-links a{
+    text-decoration: none;
+    color: blue;
+}

@@ -9,9 +9,12 @@ const ProjectCard = (props) => {
             <CardText>
                 {props.text}
             </CardText>
-            <CardActions>
-                <Button colored><a href={props.link}>GitHub</a></Button>
-                <Button colored>Deployed</Button>
+            <CardActions className={"project-links"}>
+                <Button className={"github-button"} colored><a href={props.link}>GitHub</a></Button>
+                {props.webLink &&
+                    <Button className={"deployed-button"} colored><a href={props.webLink}>Deployed</a></Button>
+                }
+
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share"></IconButton>
