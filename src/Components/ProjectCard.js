@@ -5,7 +5,7 @@ import React from 'react';
 const ProjectCard = (props) => {
     return (
         <Card shadow={5} style={{ minWidth: '450', margin: "auto" }}>
-            <CardTitle style={{ color: '#fff', height: "176px", background: "url(https://reactjs.org/logo-og.png) center/cover" }}>{props.title}</CardTitle>
+            <CardTitle style={{ color: '#fff', height: "176px", background: props.pic }}>{props.title}</CardTitle>
             <CardText>
                 {props.text}
             </CardText>
