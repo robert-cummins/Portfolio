@@ -17,12 +17,6 @@ function App() {
             <Link to="/">About Me</Link>
           </Navigation>
         </Header>
-        <Drawer title="Title">
-          <Navigation>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contacts">Contacts</Link>
-          </Navigation>
-        </Drawer>
         <Content>
           <div className="page-content" />
           <Main />
