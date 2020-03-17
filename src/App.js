@@ -13,10 +13,11 @@ function App() {
         <Header className="header-color" title="Robert Cummins" scroll>
           <Navigation>
             <Link to="/projects">Projects</Link>
-            <Link to="/contacts">Contacts</Link>
+            <Link to="/contacts">Contact Me</Link>
             <Link to="/">About Me</Link>
           </Navigation>
         </Header>
+
         <Content>
           <div className="page-content" />
           <Main />

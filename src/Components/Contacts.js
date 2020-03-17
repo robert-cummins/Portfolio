@@ -8,8 +8,8 @@ class Contacts extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Robert Cummins</h2>
-                        <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="avatar" style={{ height: "250px" }} />
-                        <p style={{ width: "75%", margin: 'auto', paddingTop: "1em" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus est, consectetur ac euismod vel, dignissim in ligula. Fusce aliquet blandit arcu eu mollis. Proin tempor nulla a aliquam ullamcorper. Suspendisse non elementum mi. Nam in velit eu neque sollicitudin pretium ac et erat.</p>
+                        <img src="https://scontent.fpmr1-1.fna.fbcdn.net/v/t1.0-9/30222395_10204530742346515_6254030108708520111_n.jpg?_nc_cat=101&_nc_sid=85a577&_nc_ohc=UBluZDpJBaQAX8PLuFi&_nc_ht=scontent.fpmr1-1.fna&oh=db710209752f65ed3150a458038618c4&oe=5E8FC336" alt="avatar" style={{ height: "250px" }} />
+                        
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
