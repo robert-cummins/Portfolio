@@ -90,6 +90,10 @@
     font-family: 'Anton', sans-serif;
 }
 
+.contact-grid img {
+    border-radius: 50%;
+}
+
 .contact-grid p {
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
@@ -118,3 +122,4 @@
 .main-section {
     height: 100%;
 }
+
